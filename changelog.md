@@ -1,6 +1,16 @@
 # Changelog
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+## [0.5.0] - 2025-05-20
+### Agregado
+- Implementación completa de la interfaz de consola
+- Flujo de interacción con el usuario:
+  - Solicitud de título de artículo
+  - Solicitud de tema a buscar
+  - Presentación de resultados formatados
+  - Opción para realizar búsquedas adicionales
+- Manejo de errores y validaciones básicas de entrada
+
 ## [0.4.0] - 2025-05-20
 ### Agregado
 - Servicio TopicCounterService para contar ocurrencias de un tema

@@ -1,6 +1,19 @@
 # Changelog
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+## [0.7.0] - 2025-05-20
+### Agregado
+- Proyecto de pruebas unitarias WikipediaTopicCounter.Tests
+- Pruebas unitarias para TopicCounterService:
+  - Escenarios de entrada vacía
+  - Conteo de ocurrencias exactas
+  - Manejo de mayúsculas/minúsculas
+  - Estadísticas completas del tema
+- Pruebas unitarias para WikipediaService usando Moq:
+  - Recuperación exitosa de contenido
+  - Manejo de artículos no encontrados
+  - Manejo de errores de la API
+
 ## [0.6.0] - 2025-05-20
 ### Agregado
 - Archivo README.md con instrucciones de instalación y uso
